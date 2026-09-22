@@ -1,0 +1,10 @@
+export EDITOR=nvim
+export PATH="$HOME/.cargo/bin:$HOME/.local/bin:$PATH"
+alias gs='git status -sb'
+alias gp='git pull --rebase'
+alias glog='git log --oneline -20'
+alias cclip='cargo clippy --all-targets'
+alias ct='cargo test --offline || cargo test'
+alias dc='docker compose'
+export CARGO_TERM_COLOR=always
+export RUST_BACKTRACE=1

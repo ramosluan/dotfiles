@@ -1,0 +1,9 @@
+[user]
+	name = Luan Ramos
+	email = 386x@proton.me
+[core]
+	editor = nvim
+[pull]
+	rebase = true
+[init]
+	defaultBranch = main
